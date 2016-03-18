@@ -1,6 +1,6 @@
 {
   "name": "padplus-plugin-api",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/explodingcamera/padplus-plugin-api/issues"
   },
-  "homepage": "https://github.com/explodingcamera/padplus-plugin-api#readme"
+  "homepage": "https://github.com/explodingcamera/padplus-plugin-api#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0"
+  }
 }
