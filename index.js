@@ -1,6 +1,6 @@
 const pkg = require('./package.json');
 module.exports = {
-  modifyHtml: require('./modifyHtml'),
+  func: require('./main'),
   config: {
     name: 'API',
     version: pkg.version,
